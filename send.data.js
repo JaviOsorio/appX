@@ -17,7 +17,7 @@ senderPort.open((err) => {
 
   // Envía datos a través del puerto de envío después de un pequeño retraso
   setTimeout(() => {
-    senderPort.write('1500\n', (err) => {
+    senderPort.write('1900\n', (err) => {
       if (err) {
         return console.log('Error al enviar datos: ', err.message);
       }
